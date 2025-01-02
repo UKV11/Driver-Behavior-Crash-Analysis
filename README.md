@@ -2,7 +2,7 @@ Crash Reporting and Driver Behavior Analysis
 
 This repository showcases a comprehensive data analysis and machine learning project aimed at analyzing crash data to identify significant factors contributing to traffic accidents. By leveraging predictive models, exploratory data analysis, and advanced machine learning techniques, the project provides actionable insights for improving road safety.
 
-🚀 Project Overview
+**🚀 Project Overview**
 
 Objective
 
@@ -16,7 +16,7 @@ Utilizes gradient boosting algorithms to predict injury severity and classify dr
 
 Generates data-driven recommendations for stakeholders like traffic safety agencies and policymakers.
 
-💼 Skills Demonstrated
+**💼 Skills Demonstrated**
 
 Technical Skills
 
@@ -38,7 +38,7 @@ Communication: Documented findings and created actionable insights for stakehold
 
 Collaboration: Integrated findings with cross-functional traffic safety requirements.
 
-📊 Key Features
+**📊 Key Features**
 
 Research Questions Addressed
 
@@ -60,7 +60,7 @@ The predictive model achieved an accuracy of 78%, effectively identifying driver
 
 Key factors influencing injury severity include driver substance abuse and vehicle damage extent.
 
-🛠 Setup Instructions
+**🛠 Setup Instructions**
 
 Requirements
 
@@ -83,21 +83,8 @@ Run the Jupyter Notebook:
 
 jupyter notebook notebooks/Crash_Reporting_Drivers_Data.ipynb
 
-📂 Repository Structure
 
-Driver-Behavior-Crash-Analysis/
-├── notebooks/
-│   └── Crash_Reporting_Drivers_Data.ipynb
-├── reports/
-│   └── Driver_Behavior_Analysis_Report.pdf
-├── data/
-│   └── README.md (Links to external dataset)
-├── src/
-│   └── helper_functions.py (Reusable scripts, if applicable)
-├── README.md
-└── LICENSE
-
-🌟 Showcase
+**🌟 Showcase**
 
 Visuals
 
@@ -109,7 +96,7 @@ Feature Importance: Key predictors of crash injury severity.
 
 
 
-📈 Future Work
+**📈 Future Work**
 
 Enhance the predictive model with additional features and datasets.
 
@@ -117,20 +104,11 @@ Explore deep learning techniques for injury severity prediction.
 
 Develop an interactive dashboard for real-time crash data analysis.
 
-📝 References
+**📝 References**
 
 Crash Reporting - Drivers Data
 
 Refer to the report in the repository for detailed citations.
 
-🤝 Contributing
 
-Feel free to fork this repository, make changes, and submit a pull request. Suggestions and collaborations are always welcome!
 
-📫 Contact
-
-For inquiries or collaborations, reach out via LinkedIn or email at your.email@example.com.
-
-⚖ License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
