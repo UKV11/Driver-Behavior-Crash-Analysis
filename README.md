@@ -1,114 +1,118 @@
-Crash Reporting and Driver Behavior Analysis
-
-This repository showcases a comprehensive data analysis and machine learning project aimed at analyzing crash data to identify significant factors contributing to traffic accidents. By leveraging predictive models, exploratory data analysis, and advanced machine learning techniques, the project provides actionable insights for improving road safety.
-
-**🚀 Project Overview**
-
-Objective
-
-To analyze crash reporting data and apply machine learning techniques to uncover the key factors influencing traffic accidents and injury severity, enabling actionable recommendations for improved traffic safety.
-
-Highlights
-
-Explores the relationship between weather conditions, driver behavior, and crash severity.
-
-Utilizes gradient boosting algorithms to predict injury severity and classify driver fault.
-
-Generates data-driven recommendations for stakeholders like traffic safety agencies and policymakers.
-
-**💼 Skills Demonstrated**
-
-Technical Skills
-
-Programming: Python (Jupyter Notebook)
-
-Data Analysis: Pandas, NumPy
-
-Data Visualization: Matplotlib, Seaborn
-
-Machine Learning: Scikit-learn, XGBoost
-
-Data Preprocessing: Cleaning, encoding, and feature selection
-
-Soft Skills
-
-Problem-solving: Tackled real-world challenges by developing data-driven solutions.
-
-Communication: Documented findings and created actionable insights for stakeholders.
-
-Collaboration: Integrated findings with cross-functional traffic safety requirements.
-
-**📊 Key Features**
-
-Research Questions Addressed
-
-What are the most common weather conditions reported during crashes, and how do they vary across collision types?
-
-How does driver distraction correlate with the extent of vehicle damage reported in crashes?
-
-Can a predictive model classify whether a driver is at fault based on road, weather, and behavior variables?
-
-What are the most significant predictors of crash injury severity using a gradient boosting algorithm?
-
-Results and Insights
-
-Clear weather accounted for the majority of crashes, particularly rear-end collisions.
-
-Driver distraction showed a strong correlation with vehicle damage severity.
-
-The predictive model achieved an accuracy of 78%, effectively identifying driver fault.
-
-Key factors influencing injury severity include driver substance abuse and vehicle damage extent.
-
-**🛠 Setup Instructions**
-
-Requirements
-
-Python 3.7+
-
-Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/username/Driver-Behavior-Crash-Analysis.git
-cd Driver-Behavior-Crash-Analysis
-
-Install the dependencies:
-
-pip install -r requirements.txt
-
-Run the Jupyter Notebook:
-
-jupyter notebook notebooks/Crash_Reporting_Drivers_Data.ipynb
 
 
-**🌟 Showcase**
+---
 
-Visuals
+# Analyzing Driver Behavior and Crash Factors Using Machine Learning
 
-Barplots: Most common weather conditions during crashes.
+🚗 **A Data Science Project to Explore Crash Data and Build Predictive Models for Traffic Safety.** 
 
-Heatmaps: Correlation of distraction and vehicle damage severity.
+## 🌟 **Project Overview**
+This project explores and analyzes crash reporting data to identify factors influencing accidents, predict driver fault, and uncover insights to improve traffic safety. Machine learning models are applied to classify driver fault and determine predictors of injury severity.
 
-Feature Importance: Key predictors of crash injury severity.
+### 🎯 **Key Research Questions**
+1. What are the most common weather conditions reported during crashes, and how do they vary across collision types?
+2. How does driver distraction correlate with the extent of vehicle damage?
+3. Can a predictive model classify whether a driver is at fault based on road, weather, and behavior variables?
+4. What factors are the most significant predictors of crash injury severity using gradient boosting?
 
+---
 
+## 📊 **Dataset**
+- **Source**: [Crash Reporting Drivers Data](https://catalog.data.gov/dataset/crash-reporting-drivers-data)
+- **Description**: 184,521 observations with 39 variables, covering driver behavior, road conditions, weather, and crash severity.
+- **License**: Data is public and obtained via [Data.gov](https://data.gov).
 
-**📈 Future Work**
+---
 
-Enhance the predictive model with additional features and datasets.
+## 🔍 **Methods**
+### Tools
+- **Python**: For analysis and modeling.
+- **Libraries**: 
+  - `pandas` & `numpy` for data handling.
+  - `matplotlib` & `seaborn` for visualization.
+  - `scikit-learn` & `XGBoost` for machine learning.
 
-Explore deep learning techniques for injury severity prediction.
+### Techniques
+- **Data Cleaning**: Handling missing values and duplicates.
+- **EDA**: Analyzing relationships between variables (e.g., weather and collision types).
+- **Machine Learning**: 
+  - **Fault Classification**: Using XGBoost to predict driver fault.
+  - **Feature Importance**: Gradient boosting to identify significant predictors of crash injury severity.
 
-Develop an interactive dashboard for real-time crash data analysis.
+---
 
-**📝 References**
+## 📈 **Key Results**
+1. **Weather Conditions**: Clear weather accounts for most crashes, with rear-end collisions being the most frequent.
+2. **Driver Distraction**: Non-distracted drivers are involved in the majority of crashes, but distraction significantly impacts damage severity.
+3. **Driver Fault Model**: Achieved 78% accuracy with the XGBoost classifier.
+4. **Top Predictors of Injury Severity**:
+   - Driver substance abuse
+   - Vehicle damage extent
+   - Collision type
 
-Crash Reporting - Drivers Data
+---
 
-Refer to the report in the repository for detailed citations.
+## 🚀 **How to Run**
+### Prerequisites
+1. Install Python 3.x and `pip`.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Driver_Behavior_Crash_Factors_ML.git
+   cd Driver_Behavior_Crash_Factors_ML
+   ```
+3. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+### Launch the Notebook
+1. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+2. Navigate to the notebook file: `Crash_Reporting_Drivers_Data.ipynb`.
 
+---
 
+## 🛠 **Interactive Features**
+- Filter insights by weather or crash type using widgets.
+- Explore feature importance interactively with sliders.
+- View confusion matrix and classification reports for the ML model.
+
+---
+
+## 📂 **Repository Structure**
+```plaintext
+Driver_Behavior_Crash_Factors_ML/
+│
+├── notebooks/
+│   └── Crash_Reporting_Drivers_Data.ipynb  # Jupyter Notebook with analysis
+├── data/
+│   └── Link to dataset source
+├── reports/
+│   └── Report.pdf                          # Detailed analysis report
+├── images/
+│   └── charts/                             # Visualizations and graphs
+└── README.md                               # Project documentation
+```
+
+---
+
+## 💡 **Future Improvements**
+- Enhance the predictive model using deep learning.
+- Add real-time dashboards for traffic safety insights.
+- Expand analysis to additional datasets for broader insights.
+
+---
+
+## 🤝 **Contributions**
+Contributions are welcome! Feel free to fork the repository and submit a pull request. For major changes, please open an issue to discuss.
+
+---
+
+## 📜 **References**
+- Ellison, A. B., et al. (2015). *Driver behavior profiles for road safety analysis*.
+- Santos, K., et al. (2022). *A literature review of machine learning algorithms for crash injury severity prediction*.
+- [More references in the project report](reports/Report.pdf).
+
+---
